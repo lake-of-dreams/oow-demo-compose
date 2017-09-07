@@ -23,7 +23,7 @@ box:
   ports:
    - "7001"
 
-dev:
+build:
  steps:
   - script:
      name: "Modify etc hosts"
