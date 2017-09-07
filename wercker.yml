@@ -28,7 +28,7 @@ build:
   - script:
      name: "Modify etc hosts"
      code: |
-      echo "$DATABASE_PORT_1521_TCP_ADD databse" >> /etc/hosts
+      echo "$DATABASE_PORT_1521_TCP_ADDR database" >> /etc/hosts
   - script:
      name: "Start server"
      code: |
